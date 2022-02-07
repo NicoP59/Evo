@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Radley&display=swap");
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+form input{
+    border: 2px solid #8F249E;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    
+}
+.echo{
+    color: #8F249E;
+    font-size: 20px;
+    font-family: 'Cherry Swash', cursive;
+}
+
+.taille{
+    height: 100px;
+    width: 100px;
+}
+.container_echo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.container_recherche{
+    flex-direction: column;
+
+}
+.container_page{
+    text-align: center;
+    padding: 50px;
+}

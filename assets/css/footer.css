@@ -1,0 +1,69 @@
+/*Police d'écriture*/
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Radley&display=swap");
+
+html, body {
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Radley', Arial, Helvetica, serif;
+    color: #2b2238;
+}
+
+    #fly {
+        width: 50px;
+        height: 50px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        animation: fly  5s linear infinite ;
+    }
+
+        @keyframes fly {
+            0% {
+                transform: translateY(0px) ;
+            }
+            25% {
+                transform: translateY(-10px) ;
+            }
+            50% {
+                transform: translateY(0px) ;
+            }
+            75% {
+                transform: translateY(10px) ;
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+    #barre_rose {
+        width: 100%;
+        height: 1px;
+        background-color: #8F249E;
+    }
+
+    #footer_content {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+        /*Liens*/
+        .liens {
+            text-decoration: none;
+            color: #2b2238;
+        }
+
+            .liens:hover {
+                text-decoration: none;
+            }

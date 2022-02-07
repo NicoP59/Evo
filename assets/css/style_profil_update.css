@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Radley&display=swap");
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: "Radley", serif;
+}
+h3{
+    font-family: 'Cherry Swash', cursive;
+    color: #8F249E;
+    font-size: 20px;
+    text-align: center;
+}
+form{
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+
+.profil{
+    margin: 30px;
+}
+
+.profil input{
+    height: auto;
+    border: none;
+    font-size: 20px;
+    width: 30vh;
+    outline: none;
+}
+
+.container_profil{
+    height: 570px;
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    border: solid 3px #8F249E ;
+}
+.profil{
+    margin: 30px;
+}
+hr{
+    width: 50%;
+    height: auto;
+    color: #8F249E;
+}
+#envoyer{
+    background-color: #8F249E;
+    border: #8F249E;
+    border-radius: 10px;
+    width: 20vh;
+    height: 60px;
+    position: relative;
+    top: -30px;
+    font-size: 20px;
+    color: white;
+}
+.profil1{
+    text-align: center;
+}
+
+@media (max-width : 900px) {
+    .container_profil{
+        width: 80%;
+    }
+    .profil input{
+        width: 50%;
+        font-size: 15px;
+    }
+}

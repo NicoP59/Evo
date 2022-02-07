@@ -1,0 +1,35 @@
+/*Police d'écriture*/
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Radley&display=swap");
+
+html, body {
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Radley', Arial, Helvetica, serif;
+    color: #2b2238;
+}
+
+    #titre {
+        font-family: "Cherry Swash", cursive;
+        background: linear-gradient(-100deg, #8F249E , #D1498D );
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .paragraphe {
+        text-align: justify;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        line-height: 20px
+    }
+
+    .titre2 {
+        text-align: center;
+    }

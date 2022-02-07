@@ -1,0 +1,138 @@
+/* Smartphone */
+@media (max-width : 900px) {
+
+    .popup {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 0%;
+        left: 0%;
+    }
+
+    .active {
+        display: flex;
+        flex-direction: column;
+    }
+
+        #section1p {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+            #legende2 {
+                display: block;
+                font-style: italic;
+            }
+    
+            .popup_img {
+                width: auto;
+                height: 250px;
+            }
+ 
+        #section2p {
+            width: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 5px;
+        }
+
+        #article1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+            .content_fonctionnalites {
+                display: flex;
+                flex-direction: row-reverse;
+            }
+
+                .legende, #legende1 {
+                    display: none;
+                }
+
+                #heart2 {
+                    display: none;
+                }
+
+                .post_pseudo_popup, #date, #barre_rose2 {
+                    display: none;
+                }
+
+/* Commentaires */
+.affichage_com {
+    height: 150px;
+    width: 270px;
+}
+
+.textarea {
+    width: 270px;
+    height: 30px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+    #soumettre {
+        width: 5rem;
+        height: 1rem;
+    }
+
+/* Page home */
+#post_img {
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+}
+
+/* Tablette*/
+@media (min-width : 901px) and (max-width : 1290px) {
+
+    .popup {
+        width: 100vw;
+        height: 100vh;
+        top: 0%;
+        left: 0%;
+    }
+
+        #section1p {
+            width: 350px;
+            height: 500px;
+        }
+    
+            .popup_img {
+                width: 350px;
+                height: 500px;
+            }
+ 
+        #section2p {
+            width: 550px;
+            height: 500px;
+            margin: 10px;
+        }
+
+/* Commentaires */
+.affichage_com {
+    height: 150px;
+    width: 400px;
+}
+
+.textarea { 
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+}
+
+
+
